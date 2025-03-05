@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h1>Eğitim Sayafsı</h1>
+<br />
+
+<div class="card-header border-0">
+    <h3 class="mb-0">Eğitim Listesi Tablosu</h3>
+</div>
+<div class="table-responsive">
+<table class="table align-items-center table-flush">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col" class="sort">#</th>
+            <th scope="col" class="sort">Başlangıç Yılı</th>
+            <th scope="col" class="sort">Bitiş Yılı</th>
+            <th scope="col" class="sort">Ad</th>
+            <th scope="col" class="sort">Açıklama</th>
+            <th scope="col" class="sort">Düzenle</th>
+            <th>Sil</th>
+        </tr>
+    </thead>
+    <tbody class="list">
+        <tr>
+            <th scope="row">1</th>
+            <td>2023.09.09</td>
+            <td>2025.07.07</td>
+            <th>İstanbul Üniversitesi</th>
+            <td>Web Tasarımı Ve Kodlama</td>
+            <td><a href="#" class="btn btn-info">Güncelle</a></td>
+            <td><a href="#" class="btn btn-danger">Sil</a></td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>2024.10.01</td>
+            <td>2026.08.01</td>
+            <th>Ecole 42 Istanbul</th>
+            <td>Software Developer Student</td>
+            <td><a href="#" class="btn btn-info">Güncelle</a></td>
+            <td><a href="#" class="btn btn-danger">Sil</a></td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
