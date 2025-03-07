@@ -61,8 +61,15 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
-# Exclude HTML from language stats
+# Exclude HTML, CSS, SCSS, and JS from GitHub language stats
 *.html linguist-detectable=false
 *.css linguist-detectable=false
 *.scss linguist-detectable=false
 *.js linguist-detectable=false
+
+# Prioritize C# for GitHub Linguist
+*.cs linguist-detectable=true
+*.csproj linguist-detectable=true
+*.razor linguist-detectable=true
+*.cshtml linguist-detectable=true
+
