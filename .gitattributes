@@ -74,3 +74,10 @@
 *.razor linguist-detectable=true
 *.cshtml linguist-detectable=true
 
+*.html linguist-vendored
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+*.xml linguist-vendored
+*.xaml linguist-vendored
+
